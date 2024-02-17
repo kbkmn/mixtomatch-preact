@@ -1,0 +1,30 @@
+{
+  "name": "mixtomatch",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "tsc && vite build && firebase deploy"
+  },
+  "dependencies": {
+    "@firebase/analytics": "^0.10.1",
+    "clsx": "^2.1.0",
+    "firebase": "^10.8.0",
+    "mixbox": "^2.0.0",
+    "preact": "^10.19.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0",
+    "vite-tsconfig-paths": "^4.3.1"
+  }
+}

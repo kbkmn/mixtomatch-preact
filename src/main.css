@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "EB Garamond";
+    src: url("/fonts/EBGaramond.ttf");
+  }
+
+  @font-face {
+    font-family: "EB Garamond";
+    font-style: italic;
+    src: url("/fonts/EBGaramond-Italic.ttf");
+  }
+}
